@@ -17,7 +17,7 @@ The Group Chat Application is developed in two stages:
 
 The app supports both server and client modes, requires minimal user interaction for the server, and leverages non-blocking I/O to handle multiple connections efficiently.
 
--- 
+---
 
 ## Getting Started
 

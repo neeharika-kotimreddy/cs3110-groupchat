@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/a7/META"
+  "_build/install/default/lib/a7/dune-package"
+  "_build/install/default/lib/a7/opam"
+]
+bin: [
+  "_build/install/default/bin/a7"
+]

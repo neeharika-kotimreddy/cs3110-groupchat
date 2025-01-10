@@ -30,8 +30,6 @@ To run the Group Chat App, you will need:
 - A computer with:
   - A network connection (for testing on different IPs)
 
----
-
 ### Installing
 
 1. Clone the repository:

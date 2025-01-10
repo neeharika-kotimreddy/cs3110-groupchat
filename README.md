@@ -32,12 +32,8 @@ To run the Group Chat App, you will need:
 
 ### Installing
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-repo/group-chat-lwt.git
-2. Navigate to the project directory:
-   ```bash
-   cd group-chat-lwt
+1. Clone the repository.
+2. Navigate to the project directory.
 3. Build the project using Dune:
    ```bash
    dune build

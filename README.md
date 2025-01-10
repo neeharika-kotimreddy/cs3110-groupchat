@@ -37,3 +37,28 @@ To run the Group Chat App, you will need:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-repo/group-chat-lwt.git
+2. Navigate to the project directory:
+   ```bash
+   cd group-chat-lwt
+3. Build the project using Dune:
+   ```bash
+   dune build
+
+### Executing Program
+
+1. Run the server on a specified IP and port:
+   ```bash
+   dune exec bin/main.exe server <IP_ADDRESS> <PORT>
+   dune exec bin/main.exe server 127.0.0.1 5001 --> example
+
+2. Connect a client to the server by specifying the server's IP, port, and a username:
+   ```bash
+   dune exec bin/main.exe client <IP_ADDRESS> <PORT> <USERNAME>
+   dune exec bin/main.exe client 127.0.0.1 5001 buffy --> example
+
+3. The client can send multiple messages and stay connected until termination (Ctrl+C).
+
+--- 
+
+## Authors
+* Neeharika Kotimreddy 
